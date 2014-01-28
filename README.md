@@ -1,4 +1,4 @@
 HTML-boilerplate
 ================
 
-Seeds for HTML projects
+Seeds for HTML projects.
