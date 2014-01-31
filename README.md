@@ -1,4 +1,6 @@
-HTML-boilerplate
+
+HTML–boilerplate
 ================
 
-Seeds for HTML projects.
+Simple seeds for HTML projects — see [the index](http://tripu.github.io/html-boilerplate).
+
