@@ -29,9 +29,9 @@ Possible exception: empty files.)
 * Avoid spaces, any kind of quotes, `/`, `\` and other OS-sensitive characters.
 * Separate words with hyphens, `like-in-this-example`.
 * Don't use uppercase at the beginning.
-  Or anywhere else, unless it would make sense in natural language, eg `all-DNS-servers.cfg`, `David-expenses.`.
+  Or anywhere else, unless it would make sense in natural language, eg `all-DNS-servers.cfg`, `David-expenses-2014/`.
 * Use more and longer extensions (to be explicit and verbose about contents); eg `.jpeg` instead of `.jpg`, `.tar.bz2` instead of `.tbz2`.
-* Be verbose while reasonable; use longer filenames to convey more information.
+* Be reasonably verbose; use longer filenames to convey more information.
 * *Prepend* additional extensions in common scenarios.
   Examples:
   * `canvas-controller.OLD.js` is a deprecated version of that JS controller.
@@ -55,8 +55,9 @@ Maximum line length: 160 visible characters.
 (It's exactly double of what we used to have on old, *physical* consoles.
 It's an even number.
 It's divisible by 5, and by 10.
-In fact, it's divisible by 32, a nice power of 2.
-Seems a reasonable compromise for the IT infrastructure we use nowadays.)
+In fact, it's divisible by 32, which is a nice power of 2.
+That makes it convenient 
+It also seems a reasonable compromise for the IT infrastructure we use nowadays.)
 
 ### Blank lines
 
@@ -80,5 +81,5 @@ When writing natural language in a context where newlines don't matter, eg Markd
 (It improves readability of the source code; ideas are clearly separated in different lines.
 It also has the added benefit that sentences that are maybe too long stick out from the rest.)
 
-Exploit the richness of Unicode: don't settle for “3x4... 12 OK” when you can “3×4… 12 ✓”.
+Exploit the richness of Unicode: don't settle for `3x4... 12 OK` when you can `3×4… 12 ✓`.
 
