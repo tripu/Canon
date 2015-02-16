@@ -1,6 +1,9 @@
 
-HTML–boilerplate
-================
+# Canōn
 
-Simple seeds for HTML projects — see [the index](http://tripu.github.io/HTML-boilerplate/).
+Programming good practices, style guides and templates.
+
+---
+
+Copyright © 2015 tripu.
 
