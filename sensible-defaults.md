@@ -56,7 +56,7 @@ Maximum line length: 160 visible characters.
 It's an even number.
 It's divisible by 5, and by 10.
 In fact, it's divisible by 32, which is a nice power of 2.
-That makes it convenient 
+That makes it convenient to divide the width of lines in equal columns.
 It also seems a reasonable compromise for the IT infrastructure we use nowadays.)
 
 ### Blank lines
@@ -81,5 +81,5 @@ When writing natural language in a context where newlines don't matter, eg Markd
 (It improves readability of the source code; ideas are clearly separated in different lines.
 It also has the added benefit that sentences that are maybe too long stick out from the rest.)
 
-Exploit the richness of Unicode: don't settle for `3x4... 12 OK` when you can `3×4… 12 ✓`.
+Exploit the richness of Unicode: don't settle for `3x4... 12 OK` when you can do `3×4… 12 ✓`.
 
