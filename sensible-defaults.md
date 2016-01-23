@@ -3,17 +3,17 @@
 These general principles apply to all platforms, all programming languages and all data formats, unless explicitly stated otherwise.
 (Rationale for some decisions is in parenthesis, like this.)
 
-* 1 [*Physical* properties](#physical-properties)
-  * [1.1 Character set](#1-1-character-set)
-  * 1.2 Character encoding
-  * 1.3 New lines
-  * 1.4 Filenames
-* 2 Formatting
-  * 2.1 Indentation
-  * 2.2 Gutter
-  * 2.3 Blank lines
-  * 2.4 Markup language
-* 3 Style
+1. [*Physical* properties](#physical-properties)
+  1. [Character set](#11-character-set)
+  1. [Character encoding](#12-character-encoding)
+  1. [New lines](#13-new-lines)
+  1. [Filenames](#14-filenames)
+1. [Formatting](#2-formatting)
+  1. [Indentation](#21-indentation)
+  1. [Gutter](#22-gutter)
+  1. [Blank lines](#23-blank-lines)
+  1. [Markup language](#24-markup-language)
+1. [Style](#3-style)
 
 ## 1 *Physical* properties
 
