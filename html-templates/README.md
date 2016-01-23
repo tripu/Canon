@@ -5,13 +5,32 @@ Seeds for HTML5 projects.
 ## Summary
 
 | Template | Valid<sup>1</sup> | CSS | JS | *Favicon* | Doc<sup>2</sup> | Visit | Browse | Download |
-| -- | -- | -- | -- | -- | -- | -- | -- | -- |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 1. Minimal | &#10003; | | | | | [V](https://tripu.github.io/Canon/html-templates/1-minimal/) | [B](https://github.com/tripu/Canon/tree/gh-pages/html-templates/1-minimal) | [D]() |
 | 2. Functional | &#10003; | | | | | | | |
-| 3. Embedded CSS+JS | &#10003; | &#10003; | &#10003; \
-| | | | | |
-| 4. Separate CSS+JS | &#10003; | &#10003; | &#10003; \
-| | | | | |
+| 3. Embedded CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+| 4. Separate CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+
+| Template | Valid<sup>1</sup> | CSS | JS | *Favicon* | Doc<sup>2</sup> | Visit | Browse | Download |
+|:----|:----|:----|:----|:----|:----|:----|:----|:----|
+| 1. Minimal | &#10003; | | | | | [V](https://tripu.github.io/Canon/html-templates/1-minimal/) | [B](https://github.com/tripu/Canon/tree/gh-pages/html-templates/1-minimal) | [D]() |
+| 2. Functional | &#10003; | | | | | | | |
+| 3. Embedded CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+| 4. Separate CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+
+| Template | Template | Template | Template | Template | Template | Template | Template | Template |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1. Minimal | &#10003; | | | | | [V](https://tripu.github.io/Canon/html-templates/1-minimal/) | [B](https://github.com/tripu/Canon/tree/gh-pages/html-templates/1-minimal) | [D]() |
+| 2. Functional | &#10003; | | | | | | | |
+| 3. Embedded CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+| 4. Separate CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+
+| Template | Valid<sup>1</sup> | CSS | JS | *Favicon* | Doc<sup>2</sup> | Visit | Browse | Download |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 1. Minimal | &#10003; | | | | | [V](https://tripu.github.io/Canon/html-templates/1-minimal/) | [B](https://github.com/tripu/Canon/tree/gh-pages/html-templates/1-minimal) | [D]() |
+| 2. Functional | &#10003; | | | | | | | |
+| 3. Embedded CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
+| 4. Separate CSS+JS | &#10003; | &#10003; | &#10003; | | | | | |
 
 ## Notes
 
