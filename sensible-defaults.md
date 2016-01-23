@@ -1,20 +1,31 @@
-
 # Sensible defaults
 
 These general principles apply to all platforms, all programming languages and all data formats, unless explicitly stated otherwise.
 (Rationale for some decisions is in parenthesis, like this.)
 
-## *Physical* properties
+* 1 [*Physical* properties](#physical-properties)
+  * [1.1 Character set](#1-1-character-set)
+  * 1.2 Character encoding
+  * 1.3 New lines
+  * 1.4 Filenames
+* 2 Formatting
+  * 2.1 Indentation
+  * 2.2 Gutter
+  * 2.3 Blank lines
+  * 2.4 Markup language
+* 3 Style
 
-### Character set
+## 1 *Physical* properties
+
+### 1.1 Character set
 
 [Unicode](http://www.unicode.org/versions/latest/).
 
-### Character encoding
+### 1.2 Character encoding
 
 [UTF-8](https://tools.ietf.org/html/rfc3629).
 
-### New lines
+### 1.3 New lines
 
 UNIX-style, ie ASCII `LF` (`0x0A`).
 
@@ -23,7 +34,7 @@ A *newline* must be the last things to appear in a text file.
 And by definition, a line ends with a *newline*.
 Possible exception: empty files.)
 
-### Filenames
+### 1.4 Filenames
 
 * Stick to ASCII characters.
 * Avoid spaces, any kind of quotes, `/`, `\` and other OS-sensitive characters.
@@ -38,9 +49,9 @@ Possible exception: empty files.)
   * `portrait-thumbnail.BACKUP.jpeg` is a temporary backup of an image.
   * `.htaccess.DISABLED` is a file that we don't want the system to use right now.
 
-## Formatting
+## 2 Formatting
 
-### Indentation
+### 2.1 Indentation
 
 Using spaces.
 4 spaces.
@@ -49,7 +60,7 @@ Avoid `\t` altogether (it messes up with indentation if the *length* of tab isn'
 
 Align stuff vertically in columns when it improves readability and gives structure to the content, as long as it doesn't look awkward.
 
-### Gutter
+### 2.2 Gutter
 
 Maximum line length: 160 visible characters.
 (It's exactly double of what we used to have on old, *physical* consoles.
@@ -59,7 +70,7 @@ In fact, it's divisible by 32, which is a nice power of 2.
 That makes it convenient to divide the width of lines in equal columns.
 It also seems a reasonable compromise for the IT infrastructure we use nowadays.)
 
-### Blank lines
+### 2.3 Blank lines
 
 Insert a blank line wherever it make sense to separate logical blocks.
 Use also for clarity at the beginning and end of files (it'll be useful to signal boundaries when multiple files are being `cat`ted on a console).
@@ -70,16 +81,15 @@ If “two blank lines” is intended to mean something different from “only on
 Consecutive blank lines are too verbose; waste screen real estate.
 Consecutive blank lines are difficult to spot, and difficult to count, for the naked eye.)
 
-### Markup language
+### 2.4 Markup language
 
 When possible, use Markdown.
 When using Markdown, opt for [CommonMark](http://commonmark.org/).
 
-## Style
+## 3 Style
 
 When writing natural language in a context where newlines don't matter, eg Markdown, break the line every time a new sentence begins.
 (It improves readability of the source code; ideas are clearly separated in different lines.
 It also has the added benefit that sentences that are maybe too long stick out from the rest.)
 
 Exploit the richness of Unicode: don't settle for `3x4... 12 OK` when you can do `3×4… 12 ✓`.
-
