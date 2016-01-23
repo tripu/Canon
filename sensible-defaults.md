@@ -3,7 +3,7 @@
 These general principles apply to all platforms, all programming languages and all data formats, unless explicitly stated otherwise.
 (Rationale for some decisions is in parenthesis, like this.)
 
-1. [*Physical* properties](#physical-properties)
+1. [*Physical* properties](#1-physical-properties)
   1. [Character set](#11-character-set)
   1. [Character encoding](#12-character-encoding)
   1. [New lines](#13-new-lines)
