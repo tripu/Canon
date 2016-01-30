@@ -72,8 +72,13 @@ It also seems a reasonable compromise for the IT infrastructure we use nowadays.
 
 ### 2.3 Blank lines
 
-Insert a blank line wherever it make sense to separate logical blocks.
-Use also for clarity at the beginning and end of files (it'll be useful to signal boundaries when multiple files are being `cat`ted on a console).
+Insert a **blank line** wherever it make sense to separate logical blocks.
+
+Although I'd prefer to have a blank line at the beginning and end of files for clarity also, I have found this to be one of most contingent aspects in coding
+style.
+My blank lines at the beginning and at the end of files have been &ldquo;corrected&rdquo; or at least questioned multiple times in different projects.
+So to avoid discussions about that in the future, I'm not doing that any more (those lines are useful to signal boundaries when multiple files are being
+`cat`ted on a console, for example).
 
 Avoid two or more consecutive blank lines.
 (They don't add information, much in the same way than two or more spaces between words don't add more meaning to that word separation.
@@ -83,13 +88,17 @@ Consecutive blank lines are difficult to spot, and difficult to count, for the n
 
 ### 2.4 Markup language
 
-When possible, use Markdown.
-When using Markdown, opt for [CommonMark](http://commonmark.org/).
+When possible, **use Markdown**.
+When using Markdown, **opt for [CommonMark](http://commonmark.org/)**.
 
 ## 3 Style
 
-When writing natural language in a context where newlines don't matter, eg Markdown, break the line every time a new sentence begins.
+When writing natural language in a context where newlines don't matter, eg Markdown, **break the line every time a new sentence begins**.
 (It improves readability of the source code; ideas are clearly separated in different lines.
 It also has the added benefit that sentences that are maybe too long stick out from the rest.)
 
 Exploit the richness of Unicode: don't settle for `3x4... 12 OK` when you can do `3×4… 12 ✓`.
+
+When writing natural language (a Markdown document, a comment in a source file), **always end sentences with a full stop**.
+Exceptions are: headings; and chunks of code were a colon at the end might induce confusion or constitute a syntax error.
+(Full stops help detect broken lines or missing copy that might have been removed inadvertently; they also make sentences easier to parse automatically.)
