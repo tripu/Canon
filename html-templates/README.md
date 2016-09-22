@@ -14,23 +14,31 @@ Review the table, visit the respective pages and browse the files until you find
 
 Then, download the chosen template and uncompress it.
 
-There are **placeholders** in the files you got; they are marked with uppercase text between square brackets, `[LIKE THIS]`.
+There are **placeholders** in the files you got; they are marked `@@LIKE THIS@@`.
 Make sure you find all placeholders, and replace them with actual values.
 
 ## Templates
 
-| Template | Valid [<sup>1</sup>](#notes) | CSS | JS | *Favicon* | Doc [<sup>2</sup>](#notes) | Use |
-|:---------|:-----------------:|:---:|:--:|:---------:|:---------------:|:---:|
-| 1. Minimal HTML5 | [&#10003;](https://html5.validator.nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F1-minimal%2F) | | | | | [&#128065;](https://tripu.github.io/Canon/html-templates/1-minimal/ "View") [&#128269;](https://github.com/tripu/Canon/tree/gh-pages/html-templates/1-minimal "Browse files") [&#10515;](foo "Download tar.gz") |
-| 2. More functional page | [&#10003;](https://html5.validator.nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F1-minimal%2F) | | | | | |
-| 3. *Embedded* CSS and JS | [&#10003;](https://html5.validator.nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F1-minimal%2F) | &#10003; | &#10003; | | | |
+|  | HTML [<sup>1</sup>](#notes) | CSS [<sup>2</sup>](#notes) | JS [<sup>3</sup>](#notes) | *Favicon* | Doc [<sup>4</sup>](#notes) | Use |
+|:-|:---------------------------:|:---:|:--:|:---------:|:---------------:|:---:|
+| 1. Minimal page, bare minimum | [&#10003;](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F1-minimal%2F "Check as HTML5") | | | | | [:eyes:](https://tripu.github.io/Canon/html-templates/1-minimal/ "View page") [:open_file_folder:]( "Browse files") [:arrow_down:](https://raw.githubusercontent.com/tripu/Canon/gh-pages/html-templates/1-minimal/index.html "Download files") |
+
+| 2. Slightly more functional page | [&#10003;](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F2-functional%2F "Check as HTML5") | | | | | [:eyes:](https://tripu.github.io/Canon/html-templates/2-functional/ "View page") [:open_file_folder:]( "Browse files") [:arrow_down:](https://raw.githubusercontent.com/tripu/Canon/gh-pages/html-templates/2-functional/index.html "Download files") |
+
+| 3. Embedded style and behaviour | [&#10003;](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F3-embedded-css-and-js%2F "Check as HTML5") | [&#10003;](https://jigsaw.w3.org/css-validator/validator?uri= "Check as CSS3") | | | | [:eyes:](https://tripu.github.io/Canon/html-templates/3-embedded-css-and-js/ "View page") [:open_file_folder:]( "Browse files") [:arrow_down:](https://raw.githubusercontent.com/tripu/Canon/gh-pages/html-templates/3-embedded-css-and-js/index.html "Download files") |
+
+| 4. Separate style and behaviour | [&#10003;](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F4-separate-css-and-js%2F "Check as HTML5") | | | | | [:eyes:](https://tripu.github.io/Canon/html-templates/4-separate-css-and-js/ "View page") [:open_file_folder:]( "Browse files") [:arrow_down:](https://raw.githubusercontent.com/tripu/Canon/gh-pages/html-templates/3-embedded-css-and-js/index.html "Download files") |
+
 | 4. *Separate* CSS and JS | [&#10003;](https://html5.validator.nu/?doc=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F1-minimal%2F) | &#10003; | &#10003; | | | |
-| 5. With *favicon* and doc | [&#10003;](https://validator.w3.org/unicorn/check?ucn_uri=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F5-with-favicon-and-documented%2F&ucn_task=conformance "Check") | &#10003; | &#10003; | &#10003; | &#10003; | |
+
+<!-- | 5. With *favicon* and doc | [&#10003;](https://validator.w3.org/unicorn/check?ucn_uri=https%3A%2F%2Ftripu.github.io%2FCanon%2Fhtml-templates%2F5-with-favicon-and-documented%2F&ucn_task=conformance "Check") | &#10003; | &#10003; | &#10003; | &#10003; | | -->
 
 ## Notes
 
 [<sup>1</sup>](#templates) All templates are valid HTML5, according to the official W3C markup checker.  
-[<sup>2</sup>](#templates) Includes documentation comments.
+[<sup>2</sup>](#templates) All CSS is valid CSS level 3.
+[<sup>3</sup>](#templates) JavaScript 6 (aka ECMAScript 2015) in strict mode.
+[<sup>4</sup>](#templates) Includes documentation comments.
 
 ## Credits
 
