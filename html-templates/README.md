@@ -8,6 +8,8 @@ The table below summarises the features of each template.
 The templates in the table go from *simplest* to *most complex*: the first one is *the smallest possible valid HTML5 page*, while the last one adds lots of
 additional features and files.
 
+All versions are [polyglot markup](https://www.w3.org/TR/html-polyglot/).
+
 Review the table, visit the respective pages and browse the files until you find a template that suits your needs.
 
 Then, download the chosen template and uncompress it.
