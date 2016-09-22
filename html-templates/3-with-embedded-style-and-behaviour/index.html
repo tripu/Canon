@@ -1,42 +1,60 @@
 <!DOCTYPE html>
 
-<html lang="en-GB" class="no-js">
+<!-- Canōn — https://github.com/tripu/Canon
+     Copyright © 2014–2016 tripu <t@tripu.info> https://tripu.info -->
 
-  <head>
+<!-- Reminder: replace @@PLACEHOLDERS@@ -->
 
-    <meta charset="utf-8" />
-    <title>[TITLE]</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport"           content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="application-name"   content="[NAME]" />
-    <meta name="description"        content="[DESCRIPTION]" />
-    <meta name="author"             content="[AUTHOR]" />
-    <meta name="keywords"           content="[KEYWORDS]" />
+<html lang="en-GB" class="no-js">    <!-- ← Replace by page @@LANGUAGE@@ — cf https://www.w3.org/TR/html5/dom.html#the-lang-and-xml:lang-attributes -->
 
-    <style type="text/css">
-      /* Style. */
-    </style>
+    <head>
 
-  </head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>@@TITLE@@</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="application-name" content="@@NAME@@" />
+        <meta name="author" content="@@AUTHOR@@" />
+        <meta name="description" content="@@DESCRIPTION@@" />
+        <meta name="keywords" content="@@KEYWORDS@@" />
 
-  <body>
+        <style type="text/css">
 
-    <header>
-      <h1>[TITLE]</h1>
-    </header>
+            html.js main p:after {
+                content: ' — JS ✓';
+            }
 
-    <main>
-      <p>[CONTENT]</p>
-    </main>
+            /* ↑ Replace by @@STYLE@@ */
 
-    <footer>
-      <p>[CODA]</p>
-    </footer>
+        </style>
 
-    <script type="text/javascript">
-      // Behaviour.
-    </script>
+    </head>
 
-  </body>
+    <body>
+
+        <header>
+            <h1>@@TITLE@@</h1>
+        </header>
+
+        <main>
+            <p>@@CONTENT@@</p>
+        </main>
+
+        <footer>
+            <p>@@CODA@@</p>
+        </footer>
+
+        <script type="text/javascript">
+
+            {
+                'use strict';
+                const html = document.getElementsByTagName('html')[0];
+                html.classList.remove('no-js');
+                html.classList.add('js');
+                // @@BEHAVIOUR@@
+            }
+
+        </script>
+
+    </body>
 
 </html>
