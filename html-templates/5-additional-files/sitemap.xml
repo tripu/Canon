@@ -4,6 +4,11 @@
 
     <url>
         <loc>@@LOCATION@@</loc>
+        <lastmod>@@DATE@@</lastmod>
+        <changefreq>@@FREQUENCY@@</changefreq>
+        <priority>@@PRIORITY@@</priority>
     </url>
+
+    <!-- Other @@PAGES@@ -->
 
 </urlset>

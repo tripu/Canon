@@ -14,7 +14,7 @@ Review the table, visit the respective pages and browse the files until you find
 
 Then, download the chosen template and uncompress it.
 
-There are **placeholders** in the files you got; they are marked `@@LIKE THIS@@`.
+There are **placeholders** in the files you got; they are marked `@@LIKE_THIS@@`.
 Make sure you find all placeholders, and replace them with actual values.
 
 ## Templates
