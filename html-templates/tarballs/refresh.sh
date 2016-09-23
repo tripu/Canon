@@ -11,3 +11,8 @@ cp -r ../4-separate-css-and-js/ canon-template-separate-css-and-js
 tar -czf canon-template-separate-css-and-js.tar.gz canon-template-separate-css-and-js/
 rm canon-template-separate-css-and-js/*
 rmdir canon-template-separate-css-and-js/
+
+cp -r ../5-additional-files/ canon-template-additional-files
+tar -czf canon-template-additional-files.tar.gz canon-template-additional-files/
+rm canon-template-additional-files/*
+rmdir canon-template-additional-files/

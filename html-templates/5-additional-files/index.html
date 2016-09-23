@@ -8,7 +8,6 @@
 <html lang="en-GB" class="no-js">    <!-- ← Replace by page @@LANGUAGE@@ -->
 
     <head>
-
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>@@TITLE@@</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -16,17 +15,10 @@
         <meta name="author" content="@@AUTHOR@@" />
         <meta name="description" content="@@DESCRIPTION@@" />
         <meta name="keywords" content="@@KEYWORDS@@" />
-
-        <style type="text/css">
-
-            html.js main p:after {
-                content: ' — JS ✓';
-            }
-
-            /* ↑ Replace by @@STYLE@@ */
-
-        </style>
-
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="icon" type="image/png" href="icon.png" />
+        <link rel="apple-touch-icon" type="image/png" href="apple-icon.png" />
+        <link rel="author" type="text/plain" href="humans.txt" />
     </head>
 
     <body>
@@ -43,17 +35,7 @@
             <p>@@CODA@@</p>
         </footer>
 
-        <script type="text/javascript">
-
-            {
-                'use strict';
-                const html = document.getElementsByTagName('html')[0];
-                html.classList.remove('no-js');
-                html.classList.add('js');
-                // @@BEHAVIOUR@@
-            }
-
-        </script>
+        <script type="text/javascript" src="behaviour.js"></script>
 
     </body>
 
