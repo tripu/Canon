@@ -6,13 +6,10 @@ if [ "tarballs" != "$(basename `pwd`)" ]; then
 fi
 
 rm *.tar.gz
+declare -A templates=( [4]=separate-css-js [5]=metadata [6]=libraries [7]=responsive )
 
-cp -r ../4-separate-css-and-js/ canon-template-separate-css-and-js
-tar -czf canon-template-separate-css-and-js.tar.gz canon-template-separate-css-and-js/
-rm canon-template-separate-css-and-js/*
-rmdir canon-template-separate-css-and-js/
-
-cp -r ../5-additional-files/ canon-template-additional-files
-tar -czf canon-template-additional-files.tar.gz canon-template-additional-files/
-rm canon-template-additional-files/*
-rmdir canon-template-additional-files/
+for temp in "${!templates[@]}"; do
+    cp -r ../$temp-${templates[$temp]}/ canon-template-${templates[$temp]}
+    tar -czf canon-template-${templates[$temp]}.tar.gz canon-template-${templates[$temp]}/
+    rm -rf canon-template-${templates[$temp]}/
+done

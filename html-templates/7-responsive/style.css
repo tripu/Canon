@@ -1,0 +1,5 @@
+html.js main p:after {
+    content: ' — JS ✓';
+}
+
+/* ↑ Replace with @@STYLE@@ */

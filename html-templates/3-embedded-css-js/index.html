@@ -5,9 +5,10 @@
 
 <!-- Reminder: replace @@PLACEHOLDERS@@ -->
 
-<html lang="en-GB">    <!-- ← Replace with page @@LANGUAGE@@ -->
+<html lang="en-GB" class="no-js">    <!-- ← Replace with page @@LANGUAGE@@ -->
 
     <head>
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>@@TITLE@@</title>
@@ -15,6 +16,17 @@
         <meta name="author" content="@@AUTHOR@@" />
         <meta name="description" content="@@DESCRIPTION@@" />
         <meta name="keywords" content="@@KEYWORDS@@" />
+
+        <style type="text/css">
+
+            html.js main p:after {
+                content: ' — JS ✓';
+            }
+
+            /* ↑ Replace with @@STYLE@@ */
+
+        </style>
+
     </head>
 
     <body>
@@ -30,6 +42,20 @@
         <footer>
             <p>@@CODA@@</p>
         </footer>
+
+        <script type="text/javascript">
+
+            {
+                'use strict';
+
+                const html = document.getElementsByTagName('html')[0];
+                html.classList.remove('no-js');
+                html.classList.add('js');
+
+                // @@BEHAVIOUR@@
+            }
+
+        </script>
 
     </body>
 
