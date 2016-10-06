@@ -5,7 +5,7 @@ Programming good practices, style guides and templates.
 ## Contents
 
 * [Sensible defaults](sensible-defaults.md), for all languages and platforms.
-* [HTML templates](html-templates/README.md), to bootstrap HTML5 projects.
+* [HTML templates](https://tripu.github.io/Canon/html-templates/), to bootstrap HTML5 projects.
 
 ## Credits
 
