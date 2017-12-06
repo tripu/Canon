@@ -1,0 +1,8 @@
+{
+  "opts": {
+    "access": "all",
+    "destination": "doc/",
+    "encoding": "utf8",
+    "recurse": true
+  }
+}
