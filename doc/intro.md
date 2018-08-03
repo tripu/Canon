@@ -6,8 +6,9 @@ redirect_from: "/"
 
 ## Contents
 
-* [Sensible defaults](sensible-defaults), for all languages and platforms.
-* [HTML templates](html-templates), to bootstrap HTML5 projects.
+* [Sensible defaults](sensible-defaults), for all languages and platforms
+* [Config files](https://github.com/tripu/Canon/tree/master/doc/tools-config) for common tools
+* [HTML templates](html-templates), to bootstrap HTML5 projects
 
 ## Credits
 
