@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 
 <!-- Canōn — https://github.com/tripu/Canon
-     Copyright © 2014–2017 tripu <t@tripu.info> https://tripu.info -->
+     Copyright © 2014–2018 tripu <t@tripu.info> https://tripu.info -->
 
 <!-- Reminder: replace @@PLACEHOLDERS@@ -->
 
 <html lang="en-GB" class="no-js">    <!-- ← Replace with page @@LANGUAGE@@ -->
 
     <head>
+
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <title>@@TITLE@@</title>
@@ -15,11 +16,17 @@
         <meta name="author" content="@@AUTHOR@@" />
         <meta name="description" content="@@DESCRIPTION@@" />
         <meta name="keywords" content="@@KEYWORDS@@" />
-        <link rel="stylesheet" type="text/css" href="style.css" />
-        <link rel="icon" type="image/png" sizes="16x16 32x32" href="icon.png" />    <!-- ← Replace with @@SIZES@@ -->
-        <link rel="apple-touch-icon" type="image/png" sizes="32x32 48x48" href="apple-icon.png" />    <!-- ← Replace with @@SIZES@@ -->
-        <link rel="manifest" type="application/manifest+json" href="manifest.webmanifest" />
-        <link rel="author" type="text/plain" href="humans.txt" />
+
+        <style type="text/css">
+
+            html.js main p:after {
+                content: ' — JS ✓';
+            }
+
+            /* ↑ Replace with @@STYLE@@ */
+
+        </style>
+
     </head>
 
     <body>
@@ -36,7 +43,19 @@
             <p>@@CODA@@</p>
         </footer>
 
-        <script type="text/javascript" src="behaviour.js"></script>
+        <script type="text/javascript">
+
+            {
+                'use strict';
+
+                const html = document.getElementsByTagName('html')[0];
+                html.classList.remove('no-js');
+                html.classList.add('js');
+
+                // @@BEHAVIOUR@@
+            }
+
+        </script>
 
     </body>
 
