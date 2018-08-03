@@ -1,3 +1,6 @@
+---
+---
+
 # HTML templates
 
 Seeds for HTML5 projects.
