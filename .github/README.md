@@ -1,1 +1,1 @@
-➡️&nbsp;[`https://tripu.github.io/Canon/doc/`](https://tripu.github.io/Canon/doc/)
+➡️&nbsp;[`https://tripu.github.io/Canon/doc/intro`](https://tripu.github.io/Canon/doc/intro)

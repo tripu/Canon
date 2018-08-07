@@ -1,3 +1,7 @@
+---
+redirect_from: "/"
+---
+
 *Programming good practices, style guides and templates*
 
 ## Contents

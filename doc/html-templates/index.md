@@ -1,7 +1,3 @@
----
-redirect_from: "/"
----
-
 ## HTML templates
 
 📦 *Pragmatic **but rigorous** templates to kick off your next web project:  
@@ -9,7 +5,7 @@ HTML, CSS, JS, metadata, microformats, libraries, responsiveness*
 
 1. [Instructions](#1-instructions)
 1. [The templates](#2-the-templates)
-1. [Features](#3-features-and-notes)
+1. [Features and notes](#3-features-and-notes)
 1. [Credits](#4-credits)
 
 ### 1. Instructions
