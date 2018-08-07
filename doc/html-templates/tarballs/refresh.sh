@@ -6,7 +6,8 @@ if [ "tarballs" != "$(basename `pwd`)" ]; then
 fi
 
 rm *.tar.gz
-declare -A templates=( [4]=separate-css-js [5]=metadata [6]=libraries [7]=responsive )
+# declare -A templates=( [4]=separate-css-js [5]=metadata [6]=libraries [7]=responsive )
+declare -A templates=( [4]=separate-css-js [5]=metadata )
 
 for temp in "${!templates[@]}"; do
     cp -r ../$temp-${templates[$temp]}/ canon-html-template-${templates[$temp]}

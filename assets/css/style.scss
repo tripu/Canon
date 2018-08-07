@@ -4,8 +4,19 @@
 @import "{{ site.theme }}";
 
 span.icon {
-  margin: 0 .5rem;
+  padding: .25rem .5rem;
   font-size: 150%;
   vertical-align: middle;
+}
+
+a span.icon {
   color: #008000;
+}
+
+a:hover span.icon,
+a:active span.icon,
+a:focus span.icon {
+  text-decoration: none;
+  color: white;
+  background-color: #008000;
 }
