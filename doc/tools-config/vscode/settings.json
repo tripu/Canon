@@ -1,0 +1,18 @@
+{
+    "workbench.startupEditor": "readme",
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', 'Droid Sans Mono', 'monospace', monospace",
+    "window.menuBarVisibility": "compact",
+    "window.titleBarStyle": "custom",
+    "window.restoreFullscreen": true,
+    "telemetry.telemetryLevel": "off",
+    "editor.renderLineHighlight": "all",
+    "cSpell.language": "en-GB",
+    "cSpell.userWords": [
+        "tripu",
+        "weeknotes"
+    ],
+    "editor.autoIndent": "advanced",
+    "workbench.colorTheme": "Dracula"
+}

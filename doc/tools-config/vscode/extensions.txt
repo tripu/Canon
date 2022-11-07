@@ -1,0 +1,7 @@
+dbaeumer.vscode-eslint-2.2.6
+dracula-theme.theme-dracula-2.24.2
+efanzh.graphviz-preview-1.5.0
+stephanvs.dot-0.0.1
+streetsidesoftware.code-spell-checker-2.11.0
+tuttieee.emacs-mcx-0.44.1
+unifiedjs.vscode-mdx-1.0.3
