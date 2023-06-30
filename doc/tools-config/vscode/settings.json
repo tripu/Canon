@@ -14,5 +14,6 @@
         "weeknotes"
     ],
     "editor.autoIndent": "advanced",
-    "workbench.colorTheme": "Dracula"
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme": "material-icon-theme"
 }
